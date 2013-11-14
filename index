@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>David Alvarez Homepage Audition</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+   <header>
+      <img src="images/advanced-spine-institute.png" width="143" height="94" id="logo" />
+   </header>
+   <div class="promoSlider">
+   <div class="innerWrapper">
+      <input checked type="radio" name="slide" class="control" id="Slide1"/>
+      <label for="Slide1" id="s1">+</label>
+      <input type="radio" name="slide" class="control" id="Slide2"/>
+      <label for="Slide2" id="s2">+</label>
+      <div class="overflowWrapper">
+      <ul>
+      <li id="Slide1">
+         <div>
+         <h3>Patients’ Choice Awards</h3>
+         <p>Given to only the most prestigious surgeons and doctors, this annual award has been bestowed upon Robert Jones, MD, PhD the last two years. Thus, his rapport with patients is excellent, generating a 100% positive review rating.</p>
+         <a class="sliderBTN" href="#">See More Awards</a>
+      </div></li>
+      <li id="Slide2">
+         <div>
+         <h3>Customer Service</h3>
+         <p>Exceptional service is our #1 commitment. When you contact us, we will be in touch with you within 24 hours. Other orthopedic centers can leave you hanging for days before they get around to a reply. However, we believe that everyone deserves our immediate attention.</p>
+         <a class="sliderBTN" href="#">Learn More</a>
+         </div></li>
+         </ul>
+      </div>
+   </div>
+   </div>
+   <div id="middleWrapper">
+      <nav>
+         <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Conditions</a></li>
+         <li><a href="#">Our Treatments</a></li>
+         <li><a href="#">Patient Experience</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Contact Us</a></li>
+         </ul>
+      </nav>
+      <div id="middleContent">
+         <div id="left">
+            <h1>Advanced Minimally Invasive Neck and Back Care</h1>
+            <p>If you suffer from back or neck pain, wouldn’t you want to know there are other options than radical open back surgery to relieve your pain? Don’t you want to find a way to get rid of your pain, reduce your stay in the hospital and recovery time at home? We have advanced technology on an out patient surgery basis available at Advanced Spine Institute. Think about it: with our surgery techniques, you could be back on your feet in less than a week.</p>
+            <h3>Ultimate Patient Experience</h3>
+            <p>Click on a person to read what they have to say about us.</p>
+            <div id="patientPics">
+               <a href="#"><img src="images/pic1.jpg" id="proPic" width="66" height="66" /></a>
+                <a href="#"><img src="images/pic2.jpg" id="proPic" width="66" height="66" /></a>
+                <a href="#"><img src="images/pic3.jpg" id="proPic" width="66" height="66" /></a>
+                <a href="#"><img src="images/pic4.jpg" id="proPic" width="66" height="66" /></a>
+                <a href="#"><img src="images/pic5.jpg" id="proPic" width="66" height="66" /></a>
+               </div>
+         </div>
+         <div id="right">
+            <div>
+            <h2>Advanced Spine Institute’s Dr. U.R. Pain Assistant</h2>
+            </div>
+            <div id="question">
+               <h4>Are you in pain?</h4>
+               <p>Find out what is causing your pain.</p>
+               <a class="askBTN" href="#">Ask</a>
+            </div>
+            <div id="question">
+               <h4>Looking for Treatment?</h4>
+               <p>Find out what treatment you need.</p>
+               <a class="askBTN" href="#">Ask</a>
+            </div>
+            <div id="question">
+               <h4>Have a Question?</h4>
+               <p>We are here to help!</p>
+               <a class="askBTN" href="#">Ask</a>
+            </div>
+            <div id="tour">
+               <img src="images/tour.png" />
+               <a href="#">Play</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer>
+      <div id="f1">
+         <img src="images/logo-transp.png" width="135" height="87" style="margin: 25px 25px;" />
+      </div>
+      <div id="f2">
+         <img src="images/weAre.png" width="16" height="16" />
+         <label style="color:#f2f2f2">Who We Are</label>
+         <ul id="whoWeAre">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Conditions</a></li>
+            <li><a href="#">Our Treatments</a></li>
+            <li><a href="#">Patient Resources</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+      </div>
+      <div id="f3">
+         <img src="images/phone.png" width="16" height="16" />
+            <label for="phone" style="color:#f2f2f2">Call Us at:</label>
+            <a href="tel:9563163636" id="phone" name="phone" style="color:#f2f2f2"><br/>317-456-2564</a>
+      </div>
+      <div id="f4">
+         <img src="images/email.png" width="16" height="16" />
+            <label style="color:#f2f2f2">Email Us at:</label>
+            <a href="mailto:emailus@asi.net" id="email-link" name="email-link" style="color:#f2f2f2;"><br/>emailus@asi.net</a>
+      </div>
+   </footer>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>	
+   <script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js" type="text/javascript"></script>
+   <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
